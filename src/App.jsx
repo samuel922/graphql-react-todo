@@ -112,13 +112,13 @@ function App() {
   }
   return (
     <div className="bg-emerald-200 font-mono w-screen h-screen flex flex-col items-center justify-center gap-3">
-      <h1 className="text-3xl text-white font-semibold text-center">React Todo App</h1>
-      <div className="flex flex-col w-full items-center sm:w-full sm:flex-col gap-4 md:w-1/2 md:items-start">
+      <h1 className="text-3xl text-slate-900 font-semibold text-center">React Todo App</h1>
+      <div className="flex flex-col w-full items-center sm:w-full sm:flex-col gap-4 md:w-1/2 md:items-start md:justify-around">
         <form onSubmit={handleAddTodo} className="flex flex-col gap-2 md:flex-row">
           <input 
             type="text"
             placeholder="Write your todo"
-            className="w-1/2 focus:ring focus:ring-emerald-400"
+            className="w-full focus:ring focus:ring-emerald-400"
             onChange={(e) => setTodoText(e.target.value)}
             value={todoText}
           />
