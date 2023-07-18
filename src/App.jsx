@@ -135,7 +135,7 @@ function App() {
                   onChange={() => handleToggleTodo(todo)}
                 />
                 <span className={todo.is_completed && 'line-through'}>{todo.title}</span>
-                <button onClick={() => handleDeleteTodo(todo)} className="bg-blue-500 px-2 text-white rounded-md sm:w-8 sm:gap-4">&times;</button>
+                <button onClick={() => handleDeleteTodo(todo)} className="bg-blue-500 px-2 text-white rounded-md w-8 sm:w-8 sm:gap-4">&times;</button>
             </li>
           ))}
         </ul>
