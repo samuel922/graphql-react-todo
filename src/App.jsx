@@ -113,7 +113,7 @@ function App() {
   return (
     <div className="bg-emerald-200 font-mono w-screen h-screen flex flex-col items-center justify-center gap-3">
       <h1 className="text-3xl text-white font-semibold text-center">React Todo App</h1>
-      <div className="flex flex-col w-full mx-auto sm:w-full sm:flex-col gap-4 md:w-1/2">
+      <div className="flex flex-col w-full items-center sm:w-full sm:flex-col gap-4 md:w-1/2">
         <form onSubmit={handleAddTodo} className="flex gap-2">
           <input 
             type="text"
